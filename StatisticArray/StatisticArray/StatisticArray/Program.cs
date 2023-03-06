@@ -18,6 +18,8 @@ namespace StatisticArray
             arr =OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
             OptionsManager.SortArr(arr);
+            OptionsManager.PrintArr(arr);
+            OptionsManager.PrintOdds(arr);
             
         }
     }
