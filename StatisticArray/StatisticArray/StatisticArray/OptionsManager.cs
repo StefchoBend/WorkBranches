@@ -31,7 +31,11 @@ namespace StatisticArray
         {
             Console.WriteLine(string.Join(", ",arr));
         }
+        public static void PrintOdds(int[] arr)
+        {
+            var result = arr.Where(x => x % 2 == 1).ToArray();
+            Console.WriteLine(string.Join(", ", result));
+        }
 
-        
     }
 }
